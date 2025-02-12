@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f11175f2-78c7-4374-99a7-080059ca5c6a" name="Changes" comment="#commit 1">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="f11175f2-78c7-4374-99a7-080059ca5c6a" name="Changes" comment="#commit 3">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Features/HomePage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Pages/LandingPageLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Pages/PageObjectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/StepDefinitions/HomepageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Utils/DependencyResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Utils/WebDriverManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/LiveEnv.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Features/LandingPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Features/LandingPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/StepDefinitions/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/StepDefinitions/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/StepDefinitions/hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/StepDefinitions/hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Suites/RegressionTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Suites/RegressionTestSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,36 +64,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Feature: LandingPage.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: To check landing page ad is displayed.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/BDD_Automation/MakeMyTrip/.idea&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.6402299&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.All Features in: MakeMyTrip.executor": "Run",
+    "Cucumber Java.Feature: LandingPage.executor": "Run",
+    "Cucumber Java.Scenario: To check flight and oneway trip is selected by default.executor": "Run",
+    "Cucumber Java.Scenario: To check flight and roundtrip is selected by default.executor": "Run",
+    "Cucumber Java.Scenario: To check landing page ad is displayed (1).executor": "Run",
+    "Cucumber Java.Scenario: To check landing page ad is displayed.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.MakeMyTrip [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/BDD_Automation/MakeMyTrip/.idea",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.6402299",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\BDD_Automation\MakeMyTrip\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: To check landing page ad is displayed">
-    <configuration name="Feature: LandingPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.All Features in: MakeMyTrip">
+    <configuration name="All Features in: MakeMyTrip" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Features/LandingPage.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$" />
       <option name="GLUE" value="org.MakeMyTrip.Flight.StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="MakeMyTripTesting" />
+      <module name="MakeMyTrip" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: MakeMyTrip" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: LandingPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Features/" />
+      <option name="GLUE" value="org.MakeMyTrip.Flight.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MakeMyTrip" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Feature: LandingPage" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -96,11 +131,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: To check landing page ad is displayed" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: To check flight and oneway trip is selected by default" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Features/HomePage.feature" />
+      <option name="GLUE" value="org.MakeMyTrip.Flight.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MakeMyTrip" />
+      <option name="NAME_FILTER" value="^To check flight and oneway trip is selected by default$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^To check flight and oneway trip is selected by default$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: To check flight and oneway trip is selected by default" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: To check flight and roundtrip is selected by default" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Features/HomePage.feature" />
+      <option name="GLUE" value="org.MakeMyTrip.Flight.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MakeMyTrip" />
+      <option name="NAME_FILTER" value="^To check flight and roundtrip is selected by default$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^To check flight and roundtrip is selected by default$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: To check flight and roundtrip is selected by default" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: To check landing page ad is displayed (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Features/LandingPage.feature" />
+      <option name="GLUE" value="org.MakeMyTrip.Flight.StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="MakeMyTripTesting" />
+      <module name="MakeMyTrip" />
       <option name="NAME_FILTER" value="^To check landing page ad is displayed$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^To check landing page ad is displayed$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: To check landing page ad is displayed" />
@@ -115,10 +191,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.All Features in: MakeMyTrip" />
+      <item itemvalue="Cucumber Java.Feature: LandingPage" />
+      <item itemvalue="Cucumber Java.Scenario: To check flight and oneway trip is selected by default" />
+      <item itemvalue="Cucumber Java.Scenario: To check flight and roundtrip is selected by default" />
+      <item itemvalue="Cucumber Java.Scenario: To check landing page ad is displayed (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: To check landing page ad is displayed" />
+        <item itemvalue="Cucumber Java.All Features in: MakeMyTrip" />
         <item itemvalue="Cucumber Java.Feature: LandingPage" />
+        <item itemvalue="Cucumber Java.Scenario: To check flight and oneway trip is selected by default" />
+        <item itemvalue="Cucumber Java.Scenario: To check flight and roundtrip is selected by default" />
+        <item itemvalue="Cucumber Java.Scenario: To check landing page ad is displayed (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -147,12 +233,22 @@
       <option name="project" value="LOCAL" />
       <updated>1739219445588</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="#commit 2">
+      <option name="closed" value="true" />
+      <created>1739304433340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739304433340</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding MakeMyTrip BDD project" />
     <MESSAGE value="#commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="#commit 1" />
+    <MESSAGE value="#commit 2" />
+    <MESSAGE value="#commit 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="#commit 3" />
   </component>
 </project>
