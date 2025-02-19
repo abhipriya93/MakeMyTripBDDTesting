@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f11175f2-78c7-4374-99a7-080059ca5c6a" name="Changes" comment="#commit 3" />
+    <list default="true" id="f11175f2-78c7-4374-99a7-080059ca5c6a" name="Changes" comment="#commit 3">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/StepDefinitions/hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/StepDefinitions/hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Suites/RegressionTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/MakeMyTrip/Flight/Suites/RegressionTestSuite.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,30 +56,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.All Features in: MakeMyTrip.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Feature: LandingPage.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: To check flight and oneway trip is selected by default.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: To check flight and roundtrip is selected by default.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: To check landing page ad is displayed (1).executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: To check landing page ad is displayed.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MakeMyTrip [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/BDD_Automation/MakeMyTrip/.idea&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.6402299&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.All Features in: MakeMyTrip.executor": "Run",
+    "Cucumber Java.Feature: LandingPage.executor": "Run",
+    "Cucumber Java.Scenario: To check flight and oneway trip is selected by default.executor": "Run",
+    "Cucumber Java.Scenario: To check flight and roundtrip is selected by default.executor": "Run",
+    "Cucumber Java.Scenario: To check landing page ad is displayed (1).executor": "Run",
+    "Cucumber Java.Scenario: To check landing page ad is displayed.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.MakeMyTrip [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/BDD_Automation/MakeMyTrip/src/test/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.6402299",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\BDD_Automation\MakeMyTrip\src\test\resources" />
       <recent name="C:\BDD_Automation\MakeMyTrip\.idea" />
     </key>
   </component>
